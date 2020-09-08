@@ -1,0 +1,24 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[@name='com.here.sdk.analytics']/class[@name='HEREAnalytics.Options']"
+               name="cb_getMap"/>
+<!--  <remove-node path="/api/package[@name='com.here.sdk.analytics']/class[@name='HEREAnalytics.Options']/member[@name='cb_getMap']" />-->
+<!--  <attr path="/api/package[@name='com.google.ads.mediation']/-->
+<!--        interface[@name='MediationBannerListener']/method[@name='onDismissScreen']"-->
+<!--        name="argsType">BannerDismissScreenEventArgs</attr>-->
+
+<!--  <attr path="/api/package[@name='com.google.ads.mediation']/-->
+<!--        interface[@name='MediationInterstitialListener']/method[@name='onDismissScreen']"-->
+<!--        name="argsType">IntersitionalDismissScreenEventArgs</attr>-->
+
+<!--  <attr path="/api/package[@name='android.content']/-->
+<!--        interface[@name='DialogInterface.OnClickListener']"-->
+<!--        name="argsType">DialogClickEventArgs</attr>-->
+
+</metadata>
